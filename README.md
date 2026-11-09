@@ -1,5 +1,9 @@
 # Triply — personal trip planner (phone web app)
 
+> **Built on code from [TREK](https://github.com/mauriceboe/TREK)** (AGPL‑3.0) — its routing,
+> place-category and map-link logic was adapted to run on a phone without a server.
+> See [NOTICE.md](NOTICE.md) for exactly what was used.
+
 One screen per trip: **map + place search + category filters + a toggleable timeline**, and a
 step‑by‑step mode that draws the route you've actually taken. No server, no account, no API keys.
 Trips are saved on the phone itself.
@@ -62,8 +66,9 @@ site — add an email or URL to `js/screens/about.js`.
 
 ## Credits & license
 
-Parts of the routing, category and map‑link logic are adapted from
-[TREK](https://github.com/mauriceboe/TREK) (AGPL‑3.0), so Triply is AGPL‑3.0 too (see `LICENSE`).
+Triply uses code from [TREK](https://github.com/mauriceboe/TREK) by the TREK contributors
+(AGPL‑3.0): the routing, place‑category and map‑link logic were adapted and modified from TREK
+v5.1.2 — file by file details in [NOTICE.md](NOTICE.md). Triply is therefore AGPL‑3.0 too (see `LICENSE`).
 "TREK" is the TREK project's trademark; this app is not TREK and isn't endorsed by it.
 Map library: [Leaflet](https://leafletjs.com) 1.9.4 (BSD‑2), in `vendor/leaflet`.
 
